@@ -1,0 +1,9 @@
+{
+  "name": "instagram-posts-skill",
+  "private": true,
+  "description": "Renderer dependency for the instagram-posts skill (HTML slides -> PNG/JPEG).",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "1.63.0"
+  }
+}

@@ -1,0 +1,57 @@
+{
+ "name": "אקמי",
+ "name_bold": "בתים",
+ "handle": "@acme.homes.demo",
+ "site": "example.com",
+ "lang": "he",
+ "timezone": "Asia/Jerusalem",
+ "instagram_user_id": "",
+ "colors": {
+  "accent": "#2BD9C5",
+  "background": "#000000",
+  "text": "#FFFFFF",
+  "muted": "#BDBDBD"
+ },
+ "fonts": {
+  "css": "assets/fonts/fonts.css",
+  "headline": "Noto Sans Hebrew",
+  "headline_weight": 800,
+  "headline_stretch": "62.5%",
+  "body": "Heebo"
+ },
+ "logo": "assets/logo.svg",
+ "copy": {
+  "credit_default": "Media: AI · תמונה להמחשה",
+  "swipe": "החליקו",
+  "end_headline": "טיפים לשוכרים<br><span class=\"o\">כל שבוע</span>",
+  "end_follow": "עקבו אחרינו",
+  "end_cta": "הקישור בביו",
+  "banned_words": [
+   "competitor-a",
+   "competitor-b"
+  ],
+  "banned_patterns": [],
+  "disclaimer": "זו לא המלצת השקעה."
+ },
+ "publish": {
+  "max_per_day": 9,
+  "gap_seconds": 600,
+  "min_minutes_between_posts": 90,
+  "quiet_hours": [
+   "01:00",
+   "07:30"
+  ]
+ },
+ "radar": {
+  "queries": {
+   "he": [
+    "נדל\"ן",
+    "מחירי הדירות",
+    "שכר דירה",
+    "משכנתאות"
+   ]
+  },
+  "feeds": {},
+  "topic_words": "נדל[\"״]?ן|דיר[הות]|שכירות|שכר דירה|משכנת|real estate|home|housing|rent|mortgage"
+ }
+}

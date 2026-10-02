@@ -1,0 +1,52 @@
+{
+ "date": "2026-10-01",
+ "_comment": "MOCK EXAMPLE. The places, prices and story are invented; the art is AI-generated (art.py).",
+ "posts": [
+  {
+   "id": "p1",
+   "time": "12:00",
+   "series": "World · oddity",
+   "topic_key": "news:harbor-city-lighthouse-sold:2026-10",
+   "slides": [
+    {
+     "type": "news",
+     "art": "lighthouse",
+     "headline": "Harbor lighthouse<br>sold as a home<br>for <span class=\"o\">$4.2 million</span>",
+     "insets": [{"art": "key", "at": "ts", "size": 230}]
+    }
+   ],
+   "caption": "A 19th-century lighthouse in Harbor City just sold as a private home: $4.2 million 🏠\n\nThe keeper's cottage was rebuilt in 2019 and the light still works, by law, every night.\n\nWould you live in one? 👇\n\nMOCK EXAMPLE: an invented story for the demo.\n#realestate #lighthouse #dreamhome",
+   "facts": ["19", "2019"],
+   "data": ["MOCK: an invented story to show the single-post format"],
+   "checks": ["MOCK: in a real post, two independent outlets (or the primary source) agree on every number"],
+   "sources": ["MOCK: none (invented for the demo)"]
+  },
+  {
+   "id": "p2",
+   "time": "16:00",
+   "series": "Top 3 · our data",
+   "topic_key": "top:priciest-homes:2026-10",
+   "item_ids": ["demo-019", "demo-020", "demo-010"],
+   "expect_prices": {"demo-019": 3948000, "demo-020": 3551000, "demo-010": 3385000},
+   "slides": [
+    {
+     "type": "news",
+     "art": "house1",
+     "headline": "The 3 priciest homes<br>for sale right now:<br><span class=\"o\">up to $3.95M</span>"
+    },
+    {"type": "item", "art": "house1", "rank": "01", "title": "Old Town, Market Square",
+     "detail": "House · 5 rooms · 285 m² · renovated", "value": "3.95", "unit": "million USD"},
+    {"type": "item", "art": "house2", "rank": "02", "title": "Old Town, Riverbank",
+     "detail": "House · 5 rooms · 255 m² · quiet street", "value": "3.55", "unit": "million USD"},
+    {"type": "item", "art": "house3", "rank": "03", "title": "Northgate, Parkside",
+     "detail": "House · 7 rooms · 311 m² · sea view", "value": "3.39", "unit": "million USD"},
+    {"type": "news_end", "headline": "More numbers<br><span class=\"o\">every day</span>"}
+   ],
+   "caption": "$3.95 million: the priciest home for sale in our data right now 🔑\n\nA renovated house on Old Town's Market Square, 285 m². Then a riverbank house at $3.55M and a 7-room house with a sea view in Northgate at $3.39M.\n\nWhich one would you pick? 👇\n\nAsking prices of live listings, as of 1.10.2026. MOCK DATA for the demo.\n#realestate #luxuryhomes #top3",
+   "facts": ["1.10.2026"],
+   "data": ["datasource.py top --category sale --by price --n 3 (mock source)"],
+   "checks": ["datasource.py check: all 3 live at these prices ✓", "Each description read: a house for sale, not a plot or a hotel ✓", "Duplicates removed by datasource.py (demo-903) ✓"],
+   "sources": ["data/mock-listings.json (invented listings)"]
+  }
+ ]
+}

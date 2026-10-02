@@ -1,0 +1,50 @@
+{
+ "name": "Acme",
+ "name_bold": "Homes",
+ "handle": "@acme.homes.demo",
+ "site": "example.com",
+ "lang": "en",
+ "timezone": "UTC",
+ "instagram_user_id": "",
+
+ "colors": {
+  "accent": "#2BD9C5",
+  "background": "#000000",
+  "text": "#FFFFFF",
+  "muted": "#BDBDBD"
+ },
+ "fonts": {
+  "css": "assets/fonts/fonts.css",
+  "headline": "Noto Sans Hebrew",
+  "headline_weight": 800,
+  "headline_stretch": "62.5%",
+  "body": "Heebo"
+ },
+ "logo": "assets/logo.svg",
+
+ "copy": {
+  "credit_default": "Media: AI · illustrative image",
+  "swipe": "Swipe",
+  "end_headline": "Real-estate news<br><span class=\"o\">every day</span>",
+  "end_follow": "Follow us",
+  "end_cta": "Link in bio",
+  "banned_words": ["competitor-a", "competitor-b"],
+  "banned_patterns": [],
+  "disclaimer": "Not investment advice."
+ },
+
+ "publish": {
+  "max_per_day": 9,
+  "gap_seconds": 600,
+  "min_minutes_between_posts": 90,
+  "quiet_hours": ["01:00", "07:30"]
+ },
+
+ "radar": {
+  "queries": {
+   "en": ["real estate record sale", "most expensive home", "housing market", "mortgage rates", "billionaire buys mansion", "bizarre house listing"]
+  },
+  "feeds": {},
+  "topic_words": "real estate|home|house|mansion|apartment|condo|penthouse|estate|property|housing|rent|mortgage|landlord|tenant"
+ }
+}

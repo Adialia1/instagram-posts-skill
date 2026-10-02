@@ -1,0 +1,22 @@
+venv/
+node_modules/
+package-lock.json
+__pycache__/
+*.pyc
+.DS_Store
+# build output of the examples (jpg/ is kept as the reference render)
+examples/*/slides/
+examples/*/png/
+examples/*/manifest.json
+examples/*/review.html
+examples/*/preview.html
+examples/*/*.plan.json
+# never commit keys or local state
+.env
+*.key
+ledger.json
+posted.json
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore

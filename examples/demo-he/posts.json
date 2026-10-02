@@ -1,0 +1,31 @@
+{
+ "date": "2026-10-01",
+ "_comment": "MOCK EXAMPLE in Hebrew (RTL). Build it with IG_BRAND=examples/demo-he/brand.he.json. The art is AI-generated (art.py).",
+ "posts": [
+  {
+   "id": "p1",
+   "time": "20:00",
+   "series": "מדריך · שכירות",
+   "topic_key": "guide:before-signing-a-lease:2026-10",
+   "slides": [
+    {
+     "type": "news",
+     "art": "keys",
+     "headline": "3 דברים לבדוק<br>לפני שחותמים<br>על <span class=\"o\">חוזה שכירות</span>",
+     "insets": [{"flag": "il", "at": "ts", "size": 200}]
+    },
+    {"type": "news_text", "art": "keys", "title": "<span class=\"o\">1.</span> מי מולכם?",
+     "body": "בדקו שמי שחותם מולכם הוא <b>בעל הדירה</b> או מי שהוסמך על ידו, ובקשו לראות <b>מסמך</b> שמוכיח את זה."},
+    {"type": "news_text", "art": "keys", "title": "<span class=\"o\">2.</span> מה כלול?",
+     "body": "ארנונה, ועד בית, חשמל ומים: כתבו בחוזה <b>במפורש</b> מי משלם כל אחד מהם, ומאיזה תאריך."},
+    {"type": "news_text", "art": "keys", "title": "<span class=\"o\">3.</span> ומה ביציאה?",
+     "body": "צלמו את הדירה <b>ביום הכניסה</b>, וכתבו בחוזה מתי ואיך מוחזר <b>הפיקדון</b>."},
+    {"type": "news_end"}
+   ],
+   "caption": "3 דברים לבדוק לפני שחותמים על חוזה שכירות 🔑\n\n1. מי חותם מולכם, ומה מוכיח שהוא רשאי.\n2. מי משלם ארנונה, ועד בית, חשמל ומים.\n3. איך ומתי מוחזר הפיקדון.\n\nשמרו את הפוסט לפעם הבאה 👇\n\nדוגמה בלבד, לא ייעוץ משפטי.\n#שכירות #דירה #טיפים",
+   "data": ["MOCK: a generic explainer to show the Hebrew RTL carousel"],
+   "checks": ["MOCK: in a real explainer, an official page for the current year backs every rule"],
+   "sources": ["MOCK: none (demo)"]
+  }
+ ]
+}

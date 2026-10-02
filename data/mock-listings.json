@@ -1,0 +1,594 @@
+{
+ "_comment": "MOCK DATA. Every listing here is invented for the demo; none is a real property. Replace this source with your own (reference/data-sources.md).",
+ "as_of": "2026-10-01",
+ "listings": [
+  {
+   "id": "demo-001",
+   "city": "Harbor City",
+   "neighbourhood": "Old Port",
+   "category": "sale",
+   "property_type": "house",
+   "rooms": 5,
+   "size_m2": 260,
+   "price": 1660000,
+   "currency": "USD",
+   "created_at": "2026-09-27",
+   "price_history": [
+    {
+     "date": "2026-09-27",
+     "price": 1660000
+    }
+   ],
+   "status": "live",
+   "description": "Made-up house for the demo: 5 rooms, 260 m², quiet street."
+  },
+  {
+   "id": "demo-002",
+   "city": "Harbor City",
+   "neighbourhood": "Marina",
+   "category": "sale",
+   "property_type": "penthouse",
+   "rooms": 4,
+   "size_m2": 104,
+   "price": 606000,
+   "currency": "USD",
+   "created_at": "2026-09-08",
+   "price_history": [
+    {
+     "date": "2026-09-08",
+     "price": 660000
+    },
+    {
+     "date": "2026-09-14",
+     "price": 606000
+    }
+   ],
+   "status": "live",
+   "description": "Made-up penthouse for the demo: 4 rooms, 104 m², quiet street."
+  },
+  {
+   "id": "demo-003",
+   "city": "Harbor City",
+   "neighbourhood": "Marina",
+   "category": "sale",
+   "property_type": "apartment",
+   "rooms": 4,
+   "size_m2": 168,
+   "price": 1482000,
+   "currency": "USD",
+   "created_at": "2026-09-02",
+   "price_history": [
+    {
+     "date": "2026-09-02",
+     "price": 1482000
+    }
+   ],
+   "status": "live",
+   "description": "Made-up apartment for the demo: 4 rooms, 168 m², garden."
+  },
+  {
+   "id": "demo-004",
+   "city": "Harbor City",
+   "neighbourhood": "Hilltop",
+   "category": "sale",
+   "property_type": "apartment",
+   "rooms": 4,
+   "size_m2": 132,
+   "price": 1077000,
+   "currency": "USD",
+   "created_at": "2026-09-04",
+   "price_history": [
+    {
+     "date": "2026-09-04",
+     "price": 1077000
+    }
+   ],
+   "status": "live",
+   "description": "Made-up apartment for the demo: 4 rooms, 132 m², sea view."
+  },
+  {
+   "id": "demo-005",
+   "city": "Harbor City",
+   "neighbourhood": "Old Port",
+   "category": "sale",
+   "property_type": "apartment",
+   "rooms": 4,
+   "size_m2": 100,
+   "price": 1333000,
+   "currency": "USD",
+   "created_at": "2026-09-22",
+   "price_history": [
+    {
+     "date": "2026-09-22",
+     "price": 1333000
+    }
+   ],
+   "status": "live",
+   "description": "Made-up apartment for the demo: 4 rooms, 100 m², new building."
+  },
+  {
+   "id": "demo-006",
+   "city": "Harbor City",
+   "neighbourhood": "Hilltop",
+   "category": "sale",
+   "property_type": "house",
+   "rooms": 6,
+   "size_m2": 266,
+   "price": 2447000,
+   "currency": "USD",
+   "created_at": "2026-09-03",
+   "price_history": [
+    {
+     "date": "2026-09-03",
+     "price": 2447000
+    }
+   ],
+   "status": "live",
+   "description": "Made-up house for the demo: 6 rooms, 266 m², renovated."
+  },
+  {
+   "id": "demo-007",
+   "city": "Northgate",
+   "neighbourhood": "Central",
+   "category": "rent",
+   "property_type": "villa",
+   "rooms": 7,
+   "size_m2": 262,
+   "price": 8122,
+   "currency": "USD",
+   "created_at": "2026-09-06",
+   "price_history": [
+    {
+     "date": "2026-09-06",
+     "price": 8122
+    }
+   ],
+   "status": "live",
+   "description": "Made-up villa for the demo: 7 rooms, 262 m², new building."
+  },
+  {
+   "id": "demo-008",
+   "city": "Northgate",
+   "neighbourhood": "Parkside",
+   "category": "sale",
+   "property_type": "apartment",
+   "rooms": 4,
+   "size_m2": 104,
+   "price": 1517000,
+   "currency": "USD",
+   "created_at": "2026-09-26",
+   "price_history": [
+    {
+     "date": "2026-09-26",
+     "price": 1517000
+    }
+   ],
+   "status": "live",
+   "description": "Made-up apartment for the demo: 4 rooms, 104 m², renovated."
+  },
+  {
+   "id": "demo-009",
+   "city": "Northgate",
+   "neighbourhood": "Central",
+   "category": "sale",
+   "property_type": "villa",
+   "rooms": 8,
+   "size_m2": 288,
+   "price": 2771000,
+   "currency": "USD",
+   "created_at": "2026-09-16",
+   "price_history": [
+    {
+     "date": "2026-09-16",
+     "price": 2771000
+    }
+   ],
+   "status": "gone",
+   "description": "Made-up villa for the demo: 8 rooms, 288 m², private pool."
+  },
+  {
+   "id": "demo-010",
+   "city": "Northgate",
+   "neighbourhood": "Parkside",
+   "category": "sale",
+   "property_type": "house",
+   "rooms": 7,
+   "size_m2": 311,
+   "price": 3385000,
+   "currency": "USD",
+   "created_at": "2026-09-01",
+   "price_history": [
+    {
+     "date": "2026-09-01",
+     "price": 3385000
+    }
+   ],
+   "status": "live",
+   "description": "Made-up house for the demo: 7 rooms, 311 m², sea view."
+  },
+  {
+   "id": "demo-011",
+   "city": "Northgate",
+   "neighbourhood": "Central",
+   "category": "sale",
+   "property_type": "villa",
+   "rooms": 5,
+   "size_m2": 230,
+   "price": 1550000,
+   "currency": "USD",
+   "created_at": "2026-09-24",
+   "price_history": [
+    {
+     "date": "2026-09-24",
+     "price": 1683000
+    },
+    {
+     "date": "2026-10-12",
+     "price": 1550000
+    }
+   ],
+   "status": "live",
+   "description": "Made-up villa for the demo: 5 rooms, 230 m², new building."
+  },
+  {
+   "id": "demo-012",
+   "city": "Northgate",
+   "neighbourhood": "Parkside",
+   "category": "sale",
+   "property_type": "house",
+   "rooms": 5,
+   "size_m2": 265,
+   "price": 2587000,
+   "currency": "USD",
+   "created_at": "2026-09-23",
+   "price_history": [
+    {
+     "date": "2026-09-23",
+     "price": 2587000
+    }
+   ],
+   "status": "live",
+   "description": "Made-up house for the demo: 5 rooms, 265 m², new building."
+  },
+  {
+   "id": "demo-013",
+   "city": "Lakeside",
+   "neighbourhood": "Birch Hill",
+   "category": "rent",
+   "property_type": "penthouse",
+   "rooms": 4,
+   "size_m2": 104,
+   "price": 2370,
+   "currency": "USD",
+   "created_at": "2026-09-22",
+   "price_history": [
+    {
+     "date": "2026-09-22",
+     "price": 2600
+    },
+    {
+     "date": "2026-09-30",
+     "price": 2370
+    }
+   ],
+   "status": "live",
+   "description": "Made-up penthouse for the demo: 4 rooms, 104 m², garden."
+  },
+  {
+   "id": "demo-014",
+   "city": "Lakeside",
+   "neighbourhood": "Waterfront",
+   "category": "sale",
+   "property_type": "villa",
+   "rooms": 7,
+   "size_m2": 374,
+   "price": 2714000,
+   "currency": "USD",
+   "created_at": "2026-09-23",
+   "price_history": [
+    {
+     "date": "2026-09-23",
+     "price": 2714000
+    }
+   ],
+   "status": "live",
+   "description": "Made-up villa for the demo: 7 rooms, 374 m², private pool."
+  },
+  {
+   "id": "demo-015",
+   "city": "Lakeside",
+   "neighbourhood": "Waterfront",
+   "category": "sale",
+   "property_type": "villa",
+   "rooms": 8,
+   "size_m2": 368,
+   "price": 4817000,
+   "currency": "USD",
+   "created_at": "2026-09-21",
+   "price_history": [
+    {
+     "date": "2026-09-21",
+     "price": 4817000
+    }
+   ],
+   "status": "gone",
+   "description": "Made-up villa for the demo: 8 rooms, 368 m², garden."
+  },
+  {
+   "id": "demo-016",
+   "city": "Lakeside",
+   "neighbourhood": "Birch Hill",
+   "category": "sale",
+   "property_type": "villa",
+   "rooms": 6,
+   "size_m2": 242,
+   "price": 1386000,
+   "currency": "USD",
+   "created_at": "2026-09-04",
+   "price_history": [
+    {
+     "date": "2026-09-04",
+     "price": 1467000
+    },
+    {
+     "date": "2026-09-10",
+     "price": 1386000
+    }
+   ],
+   "status": "live",
+   "description": "Made-up villa for the demo: 6 rooms, 242 m², sea view."
+  },
+  {
+   "id": "demo-017",
+   "city": "Lakeside",
+   "neighbourhood": "Waterfront",
+   "category": "rent",
+   "property_type": "penthouse",
+   "rooms": 6,
+   "size_m2": 216,
+   "price": 5187,
+   "currency": "USD",
+   "created_at": "2026-10-01",
+   "price_history": [
+    {
+     "date": "2026-10-01",
+     "price": 5616
+    },
+    {
+     "date": "2026-10-07",
+     "price": 5187
+    }
+   ],
+   "status": "live",
+   "description": "Made-up penthouse for the demo: 6 rooms, 216 m², new building."
+  },
+  {
+   "id": "demo-018",
+   "city": "Lakeside",
+   "neighbourhood": "Waterfront",
+   "category": "rent",
+   "property_type": "villa",
+   "rooms": 8,
+   "size_m2": 344,
+   "price": 6744,
+   "currency": "USD",
+   "created_at": "2026-09-24",
+   "price_history": [
+    {
+     "date": "2026-09-24",
+     "price": 7224
+    },
+    {
+     "date": "2026-10-02",
+     "price": 6744
+    }
+   ],
+   "status": "live",
+   "description": "Made-up villa for the demo: 8 rooms, 344 m², quiet street."
+  },
+  {
+   "id": "demo-019",
+   "city": "Old Town",
+   "neighbourhood": "Market Square",
+   "category": "sale",
+   "property_type": "house",
+   "rooms": 5,
+   "size_m2": 285,
+   "price": 3948000,
+   "currency": "USD",
+   "created_at": "2026-09-10",
+   "price_history": [
+    {
+     "date": "2026-09-10",
+     "price": 3948000
+    }
+   ],
+   "status": "live",
+   "description": "Made-up house for the demo: 5 rooms, 285 m², renovated."
+  },
+  {
+   "id": "demo-020",
+   "city": "Old Town",
+   "neighbourhood": "Riverbank",
+   "category": "sale",
+   "property_type": "house",
+   "rooms": 5,
+   "size_m2": 255,
+   "price": 3551000,
+   "currency": "USD",
+   "created_at": "2026-09-18",
+   "price_history": [
+    {
+     "date": "2026-09-18",
+     "price": 3551000
+    }
+   ],
+   "status": "live",
+   "description": "Made-up house for the demo: 5 rooms, 255 m², quiet street."
+  },
+  {
+   "id": "demo-021",
+   "city": "Old Town",
+   "neighbourhood": "Riverbank",
+   "category": "sale",
+   "property_type": "penthouse",
+   "rooms": 4,
+   "size_m2": 144,
+   "price": 1284000,
+   "currency": "USD",
+   "created_at": "2026-09-07",
+   "price_history": [
+    {
+     "date": "2026-09-07",
+     "price": 1284000
+    }
+   ],
+   "status": "live",
+   "description": "Made-up penthouse for the demo: 4 rooms, 144 m², sea view."
+  },
+  {
+   "id": "demo-022",
+   "city": "Old Town",
+   "neighbourhood": "Riverbank",
+   "category": "rent",
+   "property_type": "house",
+   "rooms": 7,
+   "size_m2": 304,
+   "price": 9889,
+   "currency": "USD",
+   "created_at": "2026-10-01",
+   "price_history": [
+    {
+     "date": "2026-10-01",
+     "price": 11248
+    },
+    {
+     "date": "2026-10-15",
+     "price": 9889
+    }
+   ],
+   "status": "gone",
+   "description": "Made-up house for the demo: 7 rooms, 304 m², sea view."
+  },
+  {
+   "id": "demo-023",
+   "city": "Old Town",
+   "neighbourhood": "Market Square",
+   "category": "sale",
+   "property_type": "penthouse",
+   "rooms": 5,
+   "size_m2": 150,
+   "price": 1966000,
+   "currency": "USD",
+   "created_at": "2026-09-20",
+   "price_history": [
+    {
+     "date": "2026-09-20",
+     "price": 1966000
+    }
+   ],
+   "status": "live",
+   "description": "Made-up penthouse for the demo: 5 rooms, 150 m², private pool."
+  },
+  {
+   "id": "demo-024",
+   "city": "Old Town",
+   "neighbourhood": "Riverbank",
+   "category": "sale",
+   "property_type": "house",
+   "rooms": 4,
+   "size_m2": 188,
+   "price": 1591000,
+   "currency": "USD",
+   "created_at": "2026-09-16",
+   "price_history": [
+    {
+     "date": "2026-09-16",
+     "price": 1591000
+    }
+   ],
+   "status": "live",
+   "description": "Made-up house for the demo: 4 rooms, 188 m², renovated."
+  },
+  {
+   "id": "demo-901",
+   "city": "Harbor City",
+   "neighbourhood": "Marina",
+   "category": "rent",
+   "property_type": "penthouse",
+   "rooms": 5,
+   "size_m2": 210,
+   "price": 2450000,
+   "currency": "USD",
+   "created_at": "2026-09-20",
+   "price_history": [
+    {
+     "date": "2026-09-20",
+     "price": 2450000
+    }
+   ],
+   "status": "live",
+   "description": "FOR SALE: penthouse with roof terrace. (Filed under rent by mistake: a sale price in the rent list.)"
+  },
+  {
+   "id": "demo-902",
+   "city": "Northgate",
+   "neighbourhood": "Central",
+   "category": "sale",
+   "property_type": "apartment",
+   "rooms": 3,
+   "size_m2": 80,
+   "price": 123456,
+   "currency": "USD",
+   "created_at": "2026-09-22",
+   "price_history": [
+    {
+     "date": "2026-09-22",
+     "price": 123456
+    }
+   ],
+   "status": "live",
+   "description": "Call for price. (A placeholder price, not a real one.)"
+  },
+  {
+   "id": "demo-903",
+   "city": "Harbor City",
+   "neighbourhood": "Old Port",
+   "category": "sale",
+   "property_type": "house",
+   "rooms": 5,
+   "size_m2": 260,
+   "price": 1660000,
+   "currency": "USD",
+   "created_at": "2026-09-27",
+   "price_history": [
+    {
+     "date": "2026-09-27",
+     "price": 1660000
+    }
+   ],
+   "status": "live",
+   "description": "Made-up house for the demo: 5 rooms, 260 m², quiet street. Listed by a second agency (a duplicate of demo-001)."
+  },
+  {
+   "id": "demo-904",
+   "city": "Lakeside",
+   "neighbourhood": "Waterfront",
+   "category": "sale",
+   "property_type": "house",
+   "rooms": 6,
+   "size_m2": 300,
+   "price": 0,
+   "currency": "USD",
+   "created_at": "2026-09-25",
+   "price_history": [
+    {
+     "date": "2026-09-25",
+     "price": 0
+    }
+   ],
+   "status": "live",
+   "description": "Price on request. (price 0 means unstated: never average it in.)"
+  }
+ ]
+}
